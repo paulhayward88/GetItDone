@@ -1,0 +1,40 @@
+body {
+	font-family: "calibri";
+    background: #efefef;
+    padding: 32px;
+    padding-top: 16px;
+    color: #333;
+}
+h1,h3 {
+	text-align: center;
+	color: #787878;
+}
+ 
+h4,h5 {
+    width: 98%;
+	padding: 1px;
+	font-size: 16px;
+    
+}
+
+#Description
+{
+	width: 98%;
+	padding: 9px;
+	font-size: 16px;
+}
+
+#movieName
+{
+	width: 98%;
+	padding: 9px;
+	font-size: 16px;
+}
+
+
+#bonus
+{
+	width: 98%;
+	padding: 9px;
+	font-size: 16px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="MovieFire">
+ 
+<head>
+    <title>Movie Fire</title>
+    <link rel="stylesheet" type="text/css" href="app.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+    <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+ 
+    <script type="text/javascript" src="app.js"></script>
+    <script src="jquery.toolbar.js"></script>
+    
+
+</head>
+
+      
+<body ng-controller="MainController" >
+    <h1>To-Do List</h1>
+    <h3>Add Tasks to your To-Do list </h3>
+          <input type="button" onclick="location.href='app.html';" value="Back" />
+    
+    
+    <form ng-keypress="saveToList2($event)" >
+        
+
+        
+        <input type="text" id="movieName" placeholder="Enter task:" ng-model="mvName" />
+&nbsp;
+        <input type="text" id="Description" placeholder="Tasks Description:" ng-model="taskDesc" />
+&nbsp;
+
+        
+    </form>
+    
+    
+
+    
+       
+
+       <script type="text/javascript" src="app.js"></script> 
+   
+   </body>
+
+</html>

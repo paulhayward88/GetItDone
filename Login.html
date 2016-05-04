@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="loginPage">
+ 
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" type="text/css" href="login.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"></script>
+    
+
+    <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+
+    <script type="text/javascript" src="login.js"></script>
+
+    
+
+</head>
+ 
+<body ng-controller="newUserAccount">
+    
+    <h1>Task list login</h1>
+    <h2> 
+<form ng-keypress="newUser()" >
+
+        <input type="text" id="movieName" placeholder="Enter task:" ng-model="mvName" />
+&nbsp;
+        <input type="text" id="Description" placeholder="Tasks Description:" ng-model="taskDesc" />
+&nbsp;
+</form>
+           
+</h2>
+            <script type="text/javascript" src="login.js"></script>   
+ </body>
+
+</html>
